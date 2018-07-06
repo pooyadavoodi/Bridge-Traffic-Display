@@ -79,7 +79,7 @@ const char timeServer[] = "us.pool.ntp.org";
 char apiKey[45] = "ENTER API KEY HERE";
 
 //Free Google Maps Api only allows for 2500 "elements" a day
-unsigned long delayBetweenApiCalls = 1000 * 60; // 1 mins
+unsigned long delayBetweenApiCalls = 1000 * 60 * 5; // 5 mins
 
 unsigned long delayBetweenLedChange = 1000 * 10; // 10 seconds
 
